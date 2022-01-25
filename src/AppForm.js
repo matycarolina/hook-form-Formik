@@ -117,6 +117,7 @@ const SignupForm = () => {
               "Tipo de empleo invalido"
             )
             .required("Requerido"),
+          
         })}
         onSubmit={async (values, { setSubmitting }) => {
           await new Promise((r) => setTimeout(r, 500));
